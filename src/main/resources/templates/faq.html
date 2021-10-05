@@ -1,10 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>FAQ</title>
+    <link rel="stylesheet" th:href="@{/css/stylesheet.css}" />
 </head>
 <body>
-
+<div class="navbar">
+    <div class="container">
+        <a href="#">Food Garbage</a>
+        <nav>
+            <ul class="primary-nav">
+                <li><a th:href="@{info}">Info</a></li>
+                <li><a th:href="@{find-food}">Find Food</a></li>
+                <li><a th:href="@{sign-up}">Sign Up</a></li>
+                <li><a th:href="@{faq}">FAQ</a></li>
+                <li><a th:href="@{contact}">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="background-image">
+    <img src="src/main/resources/images/faq-background.jpg" alt="food image">
+</div>
+<div class="faq-headline">
+    <div class="headline-margin">
+        <p>The Food Waste Project / </p>
+        <p>FAQ</p>
+    </div>
+    <div class="headline-text">
+        <h1 class="faq">FAQ</h1>
+        <p class="faq">Here you can find answers to the most commonly asked questions about The Food Waste Project</p>
+    </div>
+</div>
+<div class="faq-body">
+    <div class="body-margin">
+        <h2>Frequently Asked</h2>
+        <h2>Questions</h2>
+    </div>
+    <div class="body-text">
+        <p class="question">Where do I find expired food to pick up? </p>
+        <p class="answer">Navigate to the find food section on the webpage and enter your zip code to find your local store</p>
+        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+    </div>
+</div>
 </body>
 </html>

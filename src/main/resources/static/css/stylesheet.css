@@ -27,3 +27,47 @@ a {
     padding: 8px;
     background-color: #dddddd;
 }
+
+.faq-headline{
+    display: flex;
+    background-color: lightgrey;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faq-body{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.body-text{
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.headline-text{
+    width: 1000px;
+}
+
+p{
+    font-family: Arial;
+}
+
+.question{
+    font-weight: bold;
+}
+
+h1{
+    font-family: Arial;
+
+}
+
+h2{
+    font-family: Arial;
+
+}
