@@ -1,15 +1,25 @@
 body {
     background: white;
     margin: 0;
+    font-family: "Cambria";
 }
+
 .navbar{
-    list-style: none;
-    background: white;
+    background: whitesmoke;
     padding: 1em;
 }
+
+.banana-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .container{
-    text-decoration: none;
-    background: white;
+    #text-decoration: none;
+    display: flex;
+    background: whitesmoke;
 }
 
 ul {
@@ -23,20 +33,42 @@ li {
     float: left;
 }
 
+.logo{
+    display: block;
+    text-align: left;
+    font-size: 2em;
+}
+span{
+    color: darkcyan;
+}
+
+.primary-nav{
+    margin: 1.6em;
+}
+
 a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
     display: block;
     padding: 8px;
-    background-color: #dddddd;
 }
 
 p{
-    text-align: center;
-    background-color: cornflowerblue;
-    color: cornsilk;
-    margin: 10px;
+    font-size: 1.2em;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 1.2px;
+    margin-top: 0.5px;
+    padding: 20px;
 }
 
-.header{
+h1{
     text-align: center;
-    color: darkcyan;
+    color: black;
+    font-size: 1.6em;
+}
+h3{
+    margin-left: 370px;
+    margin-bottom: 0.5px;
 }
