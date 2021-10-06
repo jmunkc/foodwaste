@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>FAQ</title>
+    <title>FAQ - The Food Waste Project</title>
     <link rel="stylesheet" th:href="@{/css/stylesheet.css}" />
 </head>
 <body>
@@ -20,9 +20,7 @@
         </nav>
     </div>
 </div>
-<div class="background-image">
-    <img src="src/main/resources/images/faq-background.jpg" alt="food image">
-</div>
+<img th:src="@{src/main/resources/images/faq-background.jpg}" />
 <div class="faq-headline">
     <div class="headline-margin">
         <p>The Food Waste Project / </p>
@@ -41,15 +39,25 @@
     <div class="body-text">
         <p class="question">Where do I find expired food to pick up? </p>
         <p class="answer">Navigate to the find food section on the webpage and enter your zip code to find your local store</p>
-        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="question">fHere you can find Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, temporibus.</p>
+        <hr>
+        <p class="question">How do I sign up my company, to be a part of the The Food Waste Project?</p>
+        <p class="answer">Simply navigate to the "Sign up" page and enter company information to subscribe</p>
+        <hr>
+        <p class="question">How much food is wasted in Denmark?</p>
+        <p class="answer">Approximately 10 tons per minute </p>
+        <hr>
+        <p class="question">What day is it?</p>
+        <p class="answer">Tuesday</p>
+        <hr>
+        <p class="question">How do I avoid wasting so much food?</p>
+        <p class="answer">Buy less food at the time and eat it before it turns bad</p>
+        <hr>
     </div>
 </div>
+<div class="bottom">
+    <div class="bottom-margin"><p>Write us</p></div>
+    <div class="bottom-main"><p class="bottom-text">If you did not find the anwer to your question please contact us write us an e-mail at kea@kea.dk</p></div>
+</div>
+
 </body>
 </html>

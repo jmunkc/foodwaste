@@ -47,12 +47,31 @@ a {
 .body-text{
     width: 1000px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .headline-text{
     width: 1000px;
 }
+
+.bottom{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body-margin{
+
+}
+
+.bottom-main{
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
 
 p{
     font-family: Arial;
@@ -70,4 +89,8 @@ h1{
 h2{
     font-family: Arial;
 
+}
+
+.bottom-text{
+    font-style: italic;
 }
