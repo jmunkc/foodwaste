@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Food Garbage</title>
-    <link rel="stylesheet" th:href="@{/css/stylesheet.css}" />
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
 </head>
 <body>
+
 <div class="navbar">
     <div class="container">
-        <a href="#">Food Garbage</a>
+        <a th:href="@{index}" class="logo">Food<span>Garbage</span></a>
         <nav>
             <ul class="primary-nav">
                 <li><a th:href="@{info}">Info</a></li>

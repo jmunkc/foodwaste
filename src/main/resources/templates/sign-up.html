@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
 </head>
 <body>
+
+<div class="navbar">
+    <div class="container">
+        <a th:href="@{index}" class="logo">Food<span>Garbage</span></a>
+        <nav>
+            <ul class="primary-nav">
+                <li><a th:href="@{info}">Info</a></li>
+                <li><a th:href="@{find-food}">Find Food</a></li>
+                <li><a th:href="@{sign-up}">Sign Up</a></li>
+                <li><a th:href="@{faq}">FAQ</a></li>
+                <li><a th:href="@{contact}">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 
 </body>
 </html>
