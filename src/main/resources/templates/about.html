@@ -6,9 +6,10 @@
     <link rel="stylesheet" th:href="@{/css/stylesheet.css}" />
 </head>
 <body>
+
 <div class="navbar">
     <div class="container">
-        <a href="#">Food Garbage</a>
+        <a th:href="@{index}" class="logo">Food<span>Garbage</span></a>
         <nav>
             <ul class="primary-nav">
                 <li><a th:href="@{info}">Info</a></li>
@@ -16,16 +17,21 @@
                 <li><a th:href="@{sign-up}">Sign Up</a></li>
                 <li><a th:href="@{faq}">FAQ</a></li>
                 <li><a th:href="@{contact}">Contact</a></li>
+                <li><a th:href="@{about}">About us</a></li>
             </ul>
         </nav>
     </div>
 </div>
-<div class="faq-headline">
-    <div class="body-margin">
+
+
+
+
+<div class="top-div">
+    <div class="top-div-margin">
         <h2>About</h2>
         <h2>The Food Waste Project</h2>
     </div>
-    <div class="body-text"><p>The Food Waste Project is created by a group of Computer Science
+    <div class="top-div-body"><p>The Food Waste Project is created by a group of Computer Science
         students from Copenhagen School of Design and Technology.</p>
         <hr>
         <p>The purpose of the project is to create and host a website that provides information about food waste in Danmark
