@@ -26,6 +26,11 @@ public class FoodWasteController {
         return "sign-up";
     }
 
+    @GetMapping("/sign-up-conf")
+    public String signUpConf(){
+        return "sign-up-conf";
+    }
+
     @GetMapping("/faq")
     public String faq(){
         return "faq";
