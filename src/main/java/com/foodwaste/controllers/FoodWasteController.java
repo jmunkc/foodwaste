@@ -21,6 +21,11 @@ public class FoodWasteController {
         return "find-food";
     }
 
+    @GetMapping("/searched-food")
+    public String searchedFood(){
+        return "searched-food";
+    }
+
     @GetMapping("/sign-up")
     public String signUp(){
         return "sign-up";
