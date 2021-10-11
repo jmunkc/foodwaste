@@ -46,8 +46,15 @@ public class FoodWasteController {
         return "contact";
     }
 
+    @GetMapping("/contact-conf")
+    public String contactConf(){
+        return "contact-conf";
+    }
+
     @GetMapping("/about")
     public String about(){
         return "about";
     }
+
+
 }

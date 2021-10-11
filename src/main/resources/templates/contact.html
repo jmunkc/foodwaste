@@ -3,8 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}"/>
 </head>
 <body>
+
+<div class="navbar">
+    <div class="container">
+        <a href="#" class="logo">Food<span>Garbage</span></a>
+        <nav>
+            <ul class="primary-nav">
+                <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Find Food</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{sign-up}">Sign Up</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{faq}">FAQ</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{contact}">Contact</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{about}">About us</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<hr>
+
+<div class="header-div">
+
+    <div class="left">
+        <h1 class="header">Contact</h1>
+    </div>
+
+    <div class="mid">
+        <p class="header-mid-text">Make sure to let us know if you have any questions. <br> Fill out the contact form below </p>
+
+    </div>
+
+</div>
+
+<hr>
+
+<div class ="form-div">
+
+    <div class="left">
+        <p class="form-left-text">Provide your information, type your message and send us your question!</p>
+    </div>
+
+        <div class="mid">
+            <form class="form" action="contact-conf">
+                <div>
+                    <label>Name</label>
+                    <input type="text" name="contactName" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label>Address</label>
+                    <input type="text" name="contactAdr" placeholder="Enter your street name and number">
+                </div>
+                <div>
+                    <label>Zip Code</label>
+                    <input type="text" name="contactZip" placeholder="Enter your Zip code">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" name="contactMail" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label>Your question</label>
+                    <br>
+                    <br>
+                    <textarea name="text" id="contactText" cols="130" rows="3" placeholder="Enter your question"></textarea>
+                </div>
+                <input type="submit" value="Send us your question!">
+            </form>
+        </div>
+</div>
+<hr>
+
+<div class="bottom-div">
+    <div class="bottom-div-margin"><p>Write us</p></div>
+    <div class="bottom-div-body">
+        <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
+    </div>
+</div>
+
+
 
 </body>
 </html>
