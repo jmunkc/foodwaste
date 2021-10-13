@@ -1,5 +1,5 @@
 body {
-    background: lightgray
+    background: lightgray;
     margin: 0;
     font-family: "Cambria";
 }
@@ -117,10 +117,10 @@ input[type=submit]:hover {
     display: flex;
     background-color: lightgrey;
     justify-content: space-around;
-    align-items: stretch;
 }
 
 .bottom-div-margin{
+    width: 80px;
     margin-top: 30px;
 
 }
@@ -142,28 +142,6 @@ input[type=submit]:hover {
     font-size: 1.6em;
 }
 
-.question{
-    font-weight: bold;
-}
-
-.answer{
-    font-weight: normal;
-}
-
-.faq-div{
-    background-color: blueviolet;
-
-}
-
-.faq-mid{ background-color: blue;
-
-}
-
-.faq-left{
-    background-color: whitesmoke;
-
-}
-
 
 .banana-logo{
     display: block;
@@ -171,3 +149,4 @@ input[type=submit]:hover {
     margin-right: auto;
     width: 30%;
 }
+
