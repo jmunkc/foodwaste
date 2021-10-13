@@ -1,5 +1,4 @@
 body {
-    background: lightgray;
     margin: 0;
     font-family: "Cambria";
 }
@@ -125,7 +124,7 @@ input[type=submit]:hover {
 }
 
 .bottom-div-body{
-    width: 1000px;
+    width: 1100px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -139,4 +138,26 @@ input[type=submit]:hover {
     margin: 0.2em;
     padding: 0.2em;
     font-size: 1.6em;
+}
+
+.question{
+    font-weight: bold;
+}
+
+.answer{
+    font-weight: normal;
+}
+
+.faq-div{
+    background-color: blueviolet;
+
+}
+
+.faq-mid{ background-color: blue;
+
+}
+
+.faq-left{
+    background-color: whitesmoke;
+
 }
