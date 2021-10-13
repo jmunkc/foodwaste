@@ -1,3 +1,10 @@
+body{
+    background-color: lightgrey;
+    font-family: Cambria;
+
+}
+
+
 .top-div{
     display: flex;
     justify-content: space-around;
@@ -47,6 +54,7 @@
     margin-top: 40px;
     margin-bottom: 50px;
     background-color: lightgrey;
+    align-items: center;
 }
 
 .bottom-div-left{
@@ -79,17 +87,8 @@
 }
 
 .faq-text{
-    font-family: Cambria;
-}
-
-
-body{
-    background-color: lightgrey;
-}
-
-
-.faq-text {
     font-size: 17px;
+    font-family: Cambria;
 }
 
 .q{
@@ -152,14 +151,49 @@ body{
     float: left;
 }
 
-.about-header{
-    font-family: Cambria;
-    text-align: center;
-}
 
 .about-text{
     font-family: Cambria;
     font-size: 17px;
-;
 
+}
+
+.header{
+    font-family: Cambria;
+    text-align: center;
+
+}
+
+.form{
+    min-width: 800px;
+}
+
+.front-info-text{
+    min-width: 800px;
+    padding: 200px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: whitesmoke;
 }

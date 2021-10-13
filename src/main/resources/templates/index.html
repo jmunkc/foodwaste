@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Food Garbage</title>
-    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}" />
+    <link rel="stylesheet" th:href="@{/css/lars.css}" />
 </head>
 <body>
 
@@ -13,7 +13,7 @@
         <nav>
             <ul class="primary-nav">
                 <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
-                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Find Food</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Pick Up Food</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{sign-up}">Sign Up</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{faq}">FAQ</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{contact}">Contact</a></li>
@@ -23,41 +23,40 @@
     </div>
 </div>
 
-<div class="header-div">
+<div class="top-div">
 
-    <div class="left">
+    <div class="top-div-left">
         <h1 class="header">Welcome</h1>
     </div>
 
-    <div class="mid">
-        <p class="header-mid-text">This site was created to mediate contact between stores
+    <div class="top-div-right">
+        <p class="about-text">This site was created to mediate contact between stores
             with out-dated food and people who want to eat it</p>
     </div>
-
 </div>
 
-<hr>
 
-<div class ="form-div">
+<div class ="mid-div">
 
-    <div class="left">
-        <p class="form-left-text">How does it work?</p>
+    <div class="mid-div-left">
+        <p class="about-text">How does it work?</p>
     </div>
-        <p class="front-info-text">At the <a th:href="@{sign-up}">Sign Up</a> page, stores can
+
+    <div class="top-div-right"><p class="about-text">At the <a th:href="@{sign-up}">Sign Up</a> page, stores can
         sign up as a provider. At the <a th:href="@{find-food}">Find Food</a> page, people can
-        search their zip code for participating stores with available food. If you want more
-            information about food waste, visit the <a th:href="@{info}">Info</a> page.</p>
-    <div class="mid">
+        search their zip code for participating stores with available food.</p>
 
+        <hr>
+        <p class="about-text"> If you want more
+        information about food waste, visit the <a th:href="@{info}">Info</a> page.</p>
     </div>
 </div>
 
-<hr>
 
 <div class="bottom-div">
-    <div class="bottom-div-margin"><p>Write us</p></div>
-    <div class="bottom-div-body">
-        <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
+    <div class="bottom-div-left"><p class="about-text">Write us</p></div>
+    <div class="bottom-div-right">
+        <p class="about-text">If you have any questions please contact us at kea@kea.dk</p>
     </div>
 </div>
 

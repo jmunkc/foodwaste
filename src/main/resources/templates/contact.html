@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}"/>
+    <link rel="stylesheet" th:href="@{/css/lars.css}"/>
 </head>
 <body>
 
@@ -13,7 +13,7 @@
         <nav>
             <ul class="primary-nav">
                 <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
-                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Find Food</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Pick Up Food</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{sign-up}">Sign Up</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{faq}">FAQ</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{contact}">Contact</a></li>
@@ -23,30 +23,26 @@
     </div>
 </div>
 
-<hr>
 
-<div class="header-div">
 
-    <div class="left">
+<div class="top-div">
+
+    <div class="top-div-left">
         <h1 class="header">Contact</h1>
     </div>
-
-    <div class="mid">
-        <p class="header-mid-text">Make sure to let us know if you have any questions. <br> Fill out the contact form below </p>
-
+    <div class="top-div-right">
+        <p class="about-text">Make sure to let us know if you have any questions. <br> Fill out the contact form below </p>
     </div>
-
 </div>
 
-<hr>
 
-<div class ="form-div">
+<div class ="mid-div">
 
-    <div class="left">
-        <p class="form-left-text">Provide your information, type your message and send us your question!</p>
+    <div class="mid-div-left">
+        <p class="about-text">Provide your information, type your message and send us your question!</p>
     </div>
 
-        <div class="mid">
+        <div class="mid-div-right">
             <form class="form" action="contact-conf">
                 <div>
                     <label>Name</label>
@@ -74,12 +70,12 @@
             </form>
         </div>
 </div>
-<hr>
+
 
 <div class="bottom-div">
-    <div class="bottom-div-margin"><p>Write us</p></div>
-    <div class="bottom-div-body">
-        <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
+    <div class="bottom-div-left"><p class="about-text">Write us</p></div>
+    <div class="bottom-div-right">
+        <p class="about-text-text">If you have any questions please contact us at kea@kea.dk</p>
     </div>
 </div>
 

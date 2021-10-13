@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Find Food</title>
-    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}"/>
+    <title>Pick Up Food</title>
+    <link rel="stylesheet" th:href="@{/css/lars.css}"/>
 </head>
 <body>
 <div class="navbar">
@@ -12,7 +12,7 @@
         <nav>
             <ul class="primary-nav">
                 <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
-                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Find Food</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Pick Up Food</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{sign-up}">Sign Up</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{faq}">FAQ</a></li>
                 <li class="nav-li"><a class="nav-a" th:href="@{contact}">Contact</a></li>
@@ -22,26 +22,29 @@
     </div>
 </div>
 
-<div class="header-div">
+<div class="top-div">
 
-    <div class="left">
-        <h1 class="header">Find Food</h1>
+    <div class="top-div-left">
+        <h1 class="header">Pick Up Food</h1>
     </div>
 
-    <div class="mid">
-        <p class="header-mid-text">Find Food makes it possible to find food within your local area with exceeded dates that can still be consumed
-            <br>The food in your local area is free you only have to sign up for it</p>
+    <div class="top-div-right">
+        <p class="about-text">Find Food makes it possible to find food within your local area with exceeded dates that can still be consumed</p>
+
+        <hr>
+        <p class="about-text">The food in your local area is free you only have to sign up for it</p>
+        <hr>
+        <p class="about-text">Search on your local zip code to find free expired food in your local area</p>
     </div>
 
 </div>
 
-<div class ="form-div">
-
-    <div class="left">
-        <p class="form-left-text">Search on your local zip code to find free expired food in your local area</p>
+<div class ="mid-div">
+    <div class="mid-div-left">
+        <p class="about-text">Search</p>
     </div>
 
-    <div class="mid">
+    <div class="mid-div-right">
         <form class="form" action="searched-food">
             <div>
                 <label for="zip-code">Zip Code</label>
@@ -53,9 +56,9 @@
 </div>
 
 <div class="bottom-div">
-    <div class="bottom-div-margin"><p>Write us</p></div>
-    <div class="bottom-div-body">
-        <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
+    <div class="bottom-div-left"><p>Write us</p></div>
+    <div class="bottom-div-right">
+        <p class="about-text">If you have any questions please contact us at kea@kea.dk</p>
     </div>
 </div>
 
