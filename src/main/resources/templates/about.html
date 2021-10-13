@@ -1,51 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About The Food Waste Project</title>
-    <link rel="stylesheet" th:href="@{/css/stylesheet.css}" />
+    <title>About the project</title>
+    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}" />
 </head>
 <body>
 
 <div class="navbar">
     <div class="container">
-        <a th:href="@{index}" class="logo">Food<span>Garbage</span></a>
+        <a th:href="@{/}" class="logo">Food<span class="logo-span">Garbage</span></a>
         <nav>
             <ul class="primary-nav">
-                <li><a th:href="@{info}">Info</a></li>
-                <li><a th:href="@{find-food}">Find Food</a></li>
-                <li><a th:href="@{sign-up}">Sign Up</a></li>
-                <li><a th:href="@{faq}">FAQ</a></li>
-                <li><a th:href="@{contact}">Contact</a></li>
-                <li><a th:href="@{about}">About us</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Find Food</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{sign-up}">Sign Up</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{faq}">FAQ</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{contact}">Contact</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{about}">About us</a></li>
             </ul>
         </nav>
     </div>
 </div>
 
-<div class="top-div">
-    <div class="top-div-margin">
-        <p>The Food Waste Project /</p>
-        <p>About us</p>
+<div class="header-div">
+
+    <div class="left">
+        <h1 class="header">About us</h1>
     </div>
-    <div class="middle-div-body">
-        <h1>About us</h1>
-        <p>Here you can fint information about the creators and the purpose of the project</p>
+
+    <div class="mid">
+        <p class="header-mid-text">Here you can find information about the creators of the Garbage Food Project and the purpose of the project</p>
     </div>
+
 </div>
 
-<div class="middle-div">
-    <div class="middle-div-margin-div-margin">
-        <h2>About</h2>
-        <h2>The Food Waste Project</h2>
+<hr>
+
+<div class ="form-div">
+
+    <div class="left">
+        <p class="form-left-text">About us and the project</p>
     </div>
-    <div class="middle-div-body"><p>The Food Waste Project is created by a group of Computer Science
+
+    <div class="mid">
+        <p>The Food Waste Project is created by a group of Computer Science
         students from Copenhagen School of Design and Technology.</p>
         <hr>
         <p>The purpose of the project is to create and host a website that provides information about food waste in Danmark
-        and to reduce food waste for convenience stores by offering private persons to pick up expired food for free.</p>
+            and to reduce food waste for convenience stores by offering private persons to pick up expired food for free.</p>
     </div>
 </div>
+
+<hr>
+
+<div class="bottom-div">
+    <div class="bottom-div-margin"><p>Write us</p></div>
+    <div class="bottom-div-body">
+        <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
+    </div>
+</div>
+
 
 </body>
 </html>

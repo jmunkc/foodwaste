@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Info</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Food Garbage</title>
+    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}" />
 </head>
 <body>
 
 <div class="navbar">
     <div class="container">
-        <a href="#" class="logo">Food<span>Garbage</span></a>
+        <a th:href="@{/}" class="logo">Food<span class="logo-span">Garbage</span></a>
         <nav>
             <ul class="primary-nav">
                 <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
@@ -23,16 +23,14 @@
     </div>
 </div>
 
-<img class="banana-logo" src="https://stcolumba-oak.com/pictures/2020/11/Sopt%20Food%20Waste%202.png" alt="picture">
-
 <div class="header-div">
 
     <div class="left">
-        <h1 class="header">Information about food waste</h1>
+        <h1 class="header">Information About Food Waste</h1>
     </div>
 
     <div class="mid">
-        <p class="header-mid-text">This website's purpose is to give information about food waste</p>
+        <p class="header-mid-text"><img class="banana-logo" src="https://stcolumba-oak.com/pictures/2020/11/Sopt%20Food%20Waste%202.png" alt="picture"></p>
     </div>
 
 </div>
@@ -42,30 +40,47 @@
     <div class="left">
         <p class="form-left-text">Information About Food Waste</p>
     </div>
-    <p class="front-info-text">Globally, there are approximately 1.3 billion tons of food waste annually. So what is happening to reduce food waste in Denmark? From apps to advocacy groups, there are a host of ways to get involved.
-        <br><br>The term “food waste” refers to food that is discarded, but which is still fit for human consumption. The way this food is lost varies: produce left in fields, bruised in transport, or deemed aesthetically unpleasing for selling. Some of this waste is unavoidable, but most of it is.
-        <br><br>The environmental impact of food waste is staggering: 8-10% of all greenhouse gases are produced by the food we waste. According to Project Drawdown, the world’s leading resource for climate solutions, fighting food waste ranks third as one of the most impactful things we can do to curb climate change, and be can all contribute.</p>
+
     <div class="mid">
+        <p class="front-info-text">Globally, there are approximately 1.3 billion tons of food waste annually. So what is happening to reduce food waste in Denmark? From apps to advocacy groups, there are a host of ways to get involved.
+            <br><br>The term “food waste” refers to food that is discarded, but which is still fit for human consumption. The way this food is lost varies: produce left in fields, bruised in transport, or deemed aesthetically unpleasing for selling. Some of this waste is unavoidable, but most of it is.
+            <br><br>The environmental impact of food waste is staggering: 8-10% of all greenhouse gases are produced by the food we waste. According to Project Drawdown, the world’s leading resource for climate solutions, fighting food waste ranks third as one of the most impactful things we can do to curb climate change, and be can all contribute.</p>
     </div>
 </div>
 
+<br>
+<hr>
+<br>
 
-<div class="hero">
-    <h1>Information About Food Waste</h1>
-    <p>Globally, there are approximately 1.3 billion tons of food waste annually. So what is happening to reduce food waste in Denmark? From apps to advocacy groups, there are a host of ways to get involved.</p>
-    <p>The term “food waste” refers to food that is discarded, but which is still fit for human consumption. The way this food is lost varies: produce left in fields, bruised in transport, or deemed aesthetically unpleasing for selling. Some of this waste is unavoidable, but most of it is.</p>
-    <p>The environmental impact of food waste is staggering: 8-10% of all greenhouse gases are produced by the food we waste. According to Project Drawdown, the world’s leading resource for climate solutions, fighting food waste ranks third as one of the most impactful things we can do to curb climate change, and be can all contribute.</p>
-    <h1>Ways To Reduce Food Waste</h1>
-    <h3>1. Adopt a healthier, more sustainable diet</h3>
-    <p>Life is fast-paced and preparing nutritious meals can be a challenge, but healthy meals don't have to be elaborate. The internet is full of quick healthy recipes that you can share with your family and friends</p>
-    <h3>2. Buy only what you need</h3>
-    <p>Plan your meals. Make a shopping list and stick to it, and avoid impulse buys. Not only will you waste less food, you’ll also save money!</p>
-    <h3>3. Pick ugly fruit and vegetables</h3>
-    <p>Don’t judge food by its appearance! Oddly-shaped or bruised fruits and vegetables are often thrown away because they don’t meet arbitrary cosmetic standards. Don’t worry - they taste the same! Use mature fruit for smoothies, juices and desserts.</p>
+<div class ="form-div">
 
+    <div class="left">
+        <p class="form-left-text">Ways To Reduce Food Waste</p>
+    </div>
+
+    <div class="mid">
+        <ol>
+            <li><p><strong>Adopt a healthier, more sustainable diet</strong></p>
+                <p>Life is fast-paced and preparing nutritious meals can be a challenge, but healthy meals don't have to be elaborate. <br>
+                    The internet is full of quick healthy recipes that you can share with your family and friends</p> </li>
+            <li><p><strong>Buy only what you need</strong></p>
+                <p>Plan your meals. Make a shopping list and stick to it, and avoid impulse buys. <br>
+                    Not only will you waste less food, you’ll also save money!</p> </li>
+            <li><p><strong>Pick ugly fruit and vegetables</strong></p>
+                <p>Don’t judge food by its appearance! Oddly-shaped or bruised fruits and vegetables are often thrown away because <br>
+                    they don’t meet arbitrary cosmetic standards. Don’t worry - they taste the same! <br>
+                    Use mature fruit for smoothies, juices and desserts.</p> </li>
+        </ol>
+    </div>
 </div>
 
+<hr>
 
-<!--<img src="https://ec.europa.eu/jrc/sites/default/files/styles/normal-responsive/public/food_waste_by_victoria_m_adobestock_290796363.jpeg?itok=iORhy85_" alt="picture">-->
+<div class="bottom-div">
+    <div class="bottom-div-margin"><p>Write us</p></div>
+    <div class="bottom-div-body">
+        <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
+    </div>
+</div>
 </body>
 </html>

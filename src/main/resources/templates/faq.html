@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <title>FAQ - The Garbage Food Project</title>
-    <link rel="stylesheet" th:href="@{/css/stylesheet.css}" />
+    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}" />
 </head>
 <body>
 <div class="navbar">
     <div class="container">
-        <a th:href="@{index}" class="logo">Food<span>Garbage</span></a>
+        <a th:href="@{/}" class="logo">Food<span class="logo-span">Garbage</span></a>
         <nav>
             <ul class="primary-nav">
-                <li><a th:href="@{info}">Info</a></li>
-                <li><a th:href="@{find-food}">Find Food</a></li>
-                <li><a th:href="@{sign-up}">Sign Up</a></li>
-                <li><a th:href="@{faq}">FAQ</a></li>
-                <li><a th:href="@{contact}">Contact</a></li>
-                <li><a th:href="@{about}">About us</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{info}">Info</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{find-food}">Find Food</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{sign-up}">Sign Up</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{faq}">FAQ</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{contact}">Contact</a></li>
+                <li class="nav-li"><a class="nav-a" th:href="@{about}">About us</a></li>
             </ul>
         </nav>
     </div>
 </div>
 
-<div class="top-div">
-    <div class="top-div-margin">
-        <p>The Food Waste Project / </p>
-        <p>FAQ</p>
+<div class="header-div">
+    <div class="left">
+        <h1 class="header">FAQ</h1>
     </div>
-    <div class="top-div-body">
-        <h1 class="faq">FAQ</h1>
-        <p class="faq">Here you can find answers to the most commonly asked questions about The Food Waste Project</p>
+    <div class="mid">
+        <p class="faq">Here you can find answers to the most commonly asked questions about The Garbage Food Project</p>
     </div>
 </div>
-<div class="middle-div">
-    <div class="middle-div-margin">
-        <h2>Frequently Asked</h2>
-        <h2>Questions</h2>
+
+
+<div class="faq-div">
+    <div class="faq-left">
+        <p class="faq-p">Frequently Asked Questions</p>
     </div>
-    <div class="middle-div-body">
+
+    <div class="faq-mid">
         <p class="question">Where do I find expired food to pick up? </p>
         <p class="answer">Navigate to the find food section on the webpage and enter your zip code to find your local store</p>
         <hr>
@@ -55,10 +55,11 @@
         <hr>
     </div>
 </div>
+
 <div class="bottom-div">
     <div class="bottom-div-margin"><p>Write us</p></div>
     <div class="bottom-div-body">
-        <p class="bottom-text">If you did not find the anwer to your question please contact us write us an e-mail at kea@kea.dk</p>
+        <p class="bottom-text">If you did not find the answer to your question please contact us write us an e-mail at kea@kea.dk</p>
     </div>
 </div>
 

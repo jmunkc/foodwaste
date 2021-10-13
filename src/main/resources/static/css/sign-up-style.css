@@ -1,5 +1,5 @@
 body {
-    background: lightgray;
+    background: lightgray
     margin: 0;
     font-family: "Cambria";
 }
@@ -39,7 +39,7 @@ p {
 
 .primary-nav{
     margin: 1.6em;
-    position: fixed;
+    position: static;
     top: 0;
 }
 
@@ -59,14 +59,15 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
+    width: 400px;
+
 }
 
 .mid{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 1200px;
+    width: 1100px;
 }
 
 .form-div{
@@ -125,7 +126,7 @@ input[type=submit]:hover {
 }
 
 .bottom-div-body{
-    width: 1000px;
+    width: 1100px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -139,4 +140,34 @@ input[type=submit]:hover {
     margin: 0.2em;
     padding: 0.2em;
     font-size: 1.6em;
+}
+
+.question{
+    font-weight: bold;
+}
+
+.answer{
+    font-weight: normal;
+}
+
+.faq-div{
+    background-color: blueviolet;
+
+}
+
+.faq-mid{ background-color: blue;
+
+}
+
+.faq-left{
+    background-color: whitesmoke;
+
+}
+
+
+.banana-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
