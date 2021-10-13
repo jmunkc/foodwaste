@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Find Food</title>
-    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}"/>
+    <title>Food Garbage</title>
+    <link rel="stylesheet" th:href="@{/css/sign-up-style.css}" />
 </head>
 <body>
+
 <div class="navbar">
     <div class="container">
         <a th:href="@{/}" class="logo">Food<span class="logo-span">Garbage</span></a>
@@ -25,32 +26,35 @@
 <div class="header-div">
 
     <div class="left">
-        <h1 class="header">Find Food</h1>
+        <h1 class="header">Food In Your Area</h1>
     </div>
 
     <div class="mid">
-        <p class="header-mid-text">Find Food makes it possible to find food within your local area with exceeded dates that can still be consumed
-            <br>The food in your local area is free you only have to sign up for it</p>
+        <p class="header-mid-text">This is the food in your local area</p>
     </div>
 
 </div>
+
+<hr>
 
 <div class ="form-div">
 
     <div class="left">
-        <p class="form-left-text">Search on your local zip code to find free expired food in your local area</p>
+        <p class="form-left-text">These are the local stores which have expired food available </p>
     </div>
 
     <div class="mid">
-        <form class="form" action="searched-food">
-            <div>
-                <label for="zip-code">Zip Code</label>
-                <input type="text" id="zip-code" name="zip-code" placeholder="Type Zip-Code">
-            </div>
-            <input type="submit" value="Search">
-        </form>
+        <ul class="form-conf">
+            <li>Storename:    Netto, Guldbergsgade</li>
+            <li>Storename:    Føtex, Nørreport</li>
+            <li>Storename:    Aldi, Nørrebro</li>
+            <li>Storename:    Lidl, Guldbergsgade 5</li>
+
+        </ul>
     </div>
 </div>
+
+<hr>
 
 <div class="bottom-div">
     <div class="bottom-div-margin"><p>Write us</p></div>
@@ -58,6 +62,7 @@
         <p class="bottom-text">If you have any questions please contact us at kea@kea.dk</p>
     </div>
 </div>
+
 
 </body>
 </html>
