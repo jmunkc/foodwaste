@@ -154,7 +154,7 @@ body{
 
 .about-text{
     font-family: Cambria;
-    font-size: 17px;
+    font-size: 18px;
 
 }
 
@@ -196,4 +196,19 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: whitesmoke;
+}
+
+.liste-conf{
+    list-style-type: none;
+    font-size: 17px;
+    font-family: Cambria;
+    margin: 0;
+    padding: 0;
+}
+
+.ib{
+    list-style-type: none;
+    font-size: 17px;
+    font-family: Cambria;
+
 }
