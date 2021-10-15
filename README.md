@@ -1,1 +1,3 @@
-# foodwaste TODO
+# The foodwaste project
+
+
